@@ -45,4 +45,4 @@ mv -r minimal-debian/ /usr/share/slim/themes/
 TARGET_KEY = "theme"
 $REPLACEMENT_VALUE = "minimal-debian"
 $CONFIG_FILE = "/etc/slim.conf"
-sed -c -i "s/\($TARGET_KEY *= *\).*/\1$REPLACEMENT_VALUE/" $CONFIG_FILE
+sed -i "s/\($TARGET_KEY *= *\).*/\1$REPLACEMENT_VALUE/" $CONFIG_FILE
