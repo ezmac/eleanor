@@ -29,14 +29,14 @@ then
     echo "*Installing awesome wm packages"
     tput sgr0
     sudo dpkg -i awesome_3.5.1-1_amd64.deb
-    apt-get install -f install
+    apt-get -f install
 else
     curl -O http://lmde-mirror.gwendallebihan.net/latest/pool/main/a/awesome/awesome_3.5.1-1_i386.deb
     tput setaf 4
     echo "*Installing awesome wm packages"
     tput sgr0
     sudo dpkg -i awesome_3.5.1-1_i386.deb
-    apt-get install -f install
+    apt-get -f install
 fi
 
 #Installing themes
