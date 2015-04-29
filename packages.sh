@@ -11,7 +11,7 @@ tput sgr0
 
 sudo apt-get install --no-install-recommends lua5.1 xmlto luadoc libxcb-randr0-dev libxcb-xtest0-dev \
  libxcb-xinerama0-dev  libxcb-shape0-dev libxcb-keysyms1-dev libxcb-icccm4-dev libx11-xcb-dev lua-lgi-dev \
- libstartup-notification0-dev libxdg-basedir-dev libxcb-image0-dev libxcb-util0-dev libgdk-pixbuf2.0-dev build-essential cmake graphicsmagick-imagemagick-compat libxcb-cursor0 cairo-clock libxcb-xkb1 libcairo2-dev libxcb-cursor-dev libxcb-cursor-dev libxkbcommon-dev libxcb-xkb-dev liblua5.1-0 liblua5.1-0-dbg lua5.1 liblua5.1-0-dev curl graphicsmagick cmake curl xorg slim libasound2 alsa-utils alsa-oss alsa-tools-gui curl thunar wicd wicd-curses terminator iceweasel xfonts-terminus
+ libstartup-notification0-dev libxdg-basedir-dev libxcb-image0-dev libxcb-util0-dev libgdk-pixbuf2.0-dev build-essential cmake graphicsmagick-imagemagick-compat libxcb-cursor0 cairo-clock libxcb-xkb1 libcairo2-dev libxcb-cursor-dev libxcb-cursor-dev libxkbcommon-dev libxcb-xkb-dev liblua5.1-0 liblua5.1-0-dbg lua5.1 liblua5.1-0-dev curl graphicsmagick cmake curl xorg slim libasound2 alsa-utils alsa-oss alsa-tools-gui curl thunar wicd wicd-curses terminator iceweasel xfonts-terminus --yes
 
 #Awesome
 
