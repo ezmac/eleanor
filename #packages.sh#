@@ -40,7 +40,3 @@ fi
 
 tar -xvf debian_slim.tar
 mv minimal-debian/ /usr/share/slim/themes/
-$TARGET_KEY = "current_theme"
-$REPLACEMENT_VALUE = "minimal-debian"
-$CONFIG_FILE = /etc/slim.conf
-sed -i "s/\($TARGET_KEY *= *\).*/\1$REPLACEMENT_VALUE/" $CONFIG_FILE
