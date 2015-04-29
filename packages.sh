@@ -41,8 +41,8 @@ fi
 curl -O http://www.deviantart.com/download/146727470/Minimal_Debian_SLiM_theme_by_Pasteurized.tar?token=34e2e30f4c7b7326d650a2a1ffc024a6a250a098&ts=1430326492
 
 tar -xvf debian_slim.tar
-mv -r minimal-debian/ /usr/share/slim/themes/
-TARGET_KEY = "theme"
+mv minimal-debian/ /usr/share/slim/themes/
+TARGET_KEY = "current_theme"
 $REPLACEMENT_VALUE = "minimal-debian"
 $CONFIG_FILE = "/etc/slim.conf"
 sed -i "s/\($TARGET_KEY *= *\).*/\1$REPLACEMENT_VALUE/" $CONFIG_FILE
