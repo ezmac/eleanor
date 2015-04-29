@@ -7,7 +7,7 @@ tput sgr0
 tput setaf 4
 echo "*Downloading packages"
 tput sgr0
-su root <<'EOF'
+
 
 sudo apt-get install --no-install-recommends lua5.1 xmlto luadoc libxcb-randr0-dev libxcb-xtest0-dev \
  libxcb-xinerama0-dev  libxcb-shape0-dev libxcb-keysyms1-dev libxcb-icccm4-dev libx11-xcb-dev lua-lgi-dev \
@@ -38,7 +38,7 @@ else
     sudo dpkg -i awesome_3.5.1-1_i386.deb
     apt-get install -f install
 fi
-EOF
+
 #Installing themes
 tput setaf 4
 echo "*Installing themes"
